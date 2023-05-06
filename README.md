@@ -4,7 +4,7 @@
 
 ## Description
 
-In this week's Challenge! I created a web application from scratch! It will be a portfolio page, to which I will add as the course progresses. 
+In this week's Challenge! I modified starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes.The password can include special characters.
 
 <!-- To create a responsive design this portfolio, I used some advanced CSS techniques, such as: 
 * flexbox, 
@@ -25,47 +25,49 @@ To begin with, I used my sketch book to wireframe the flow of my application for
 
 ## User Story
 
-<!-- ```
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
-``` -->
-
+```
+AS AN employee with access to sensitive data
+I WANT to randomly generate a password that meets certain criteria
+SO THAT I can create a strong password that provides greater security
+```
 
 ## Acceptance Criteria
 
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
-
-<!-- ```
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio [TO DO: deployed link to load portfolio]
-THEN I am presented with the developer's name [done], a recent photo or avatar [done], and links to sections about them [done], their work [Lipsum DONE], and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section [done]
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications [done]
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others [done]: implement flex 
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application [done]: git hub repos and other deployed applications
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport [done]: media queries
-``` -->
-
+<!-- ``` -->
+GIVEN I need a new, secure password
+WHEN I click the button to generate a password
+THEN I am presented with a series of prompts for password criteria
+WHEN prompted for password criteria
+THEN I select which criteria to include in the password
+WHEN prompted for the length of the password
+THEN I choose a length of at least 8 characters and no more than 128 characters
+WHEN asked for character types to include in the password
+THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
+WHEN I answer each prompt
+THEN my input should be validated and at least one character type should be selected
+WHEN all prompts are answered
+THEN a password is generated that matches the selected criteria
+WHEN the password is generated
+THEN the password is either displayed in an alert or written to the page
+<!-- ``` -->
 
 ## Mock-Up
 
-The following animation shows the web application's appearance and functionality:
+The following image shows the web application's appearance and functionality:
 
 ![portfolio demo](./assets/images/03-javascript-homework-demo.png)
 
 
 ## My Work
 <!-- I started with a blank page and reviewed the modules as I built my first prototype. I was near completion and had only the media queries to implement, where I learned the hard truth about the "mobile-first approach". At this point I had learned a lot from each example, especially the mini-project. So instead of working my existing code, I decided to start fresh - thanks to reset. I simply renamed my css to _OLD*, then >touch styles.css in terminal and started fresh. That is why you see some _OLD files. I decided to keep them here to show the painstaking progress that I have made. :) -->
+### Image of my App
+> Place holder for screen shot of my app;
 
-<!-- 1. You can find the URL of my deployed application **here:** <br>[02-My-Portfolio-Advanced-CSS - link](https://dinozio-design.github.io/02-My-Portfolio-Advanced-CSS) -->
+### Deployed Links
 
-<!-- 2. You can find the URL of my GitHub repository that contains this code **here:** <br>[GitHub Repo - link](https://github.com/dinozio-design/02-My-Portfolio-Advanced-CSS.git) -->
+1. You can find the URL of my deployed application **here:** <br>[03-Password-Generator-JavaScript - link](https://dinozio-design.github.io/03-Password_Generator-Java-Script/)
+
+2. You can find the URL of my GitHub repository that contains this code **here:** <br>[GitHub Repo - link](https://github.com/dinozio-design/03-Password_Generator-Java-Script.git)
 
 
 ## References
