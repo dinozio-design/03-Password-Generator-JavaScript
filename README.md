@@ -63,6 +63,12 @@ The following image shows the web application's appearance and functionality:
 ### Image of my App
 > Place holder for screen shot of my app;
 
+### My PseudoCode
+```
+<Pseudo Code Goes Here>
+
+```
+
 ### Deployed Links
 
 1. You can find the URL of my deployed application **here:** <br>[03-Password-Generator-JavaScript - link](https://dinozio-design.github.io/03-Password_Generator-Java-Script/)
