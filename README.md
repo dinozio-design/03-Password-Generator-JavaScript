@@ -65,16 +65,23 @@ The following image shows the web application's appearance and functionality:
 
 ### My PseudoCode
 ```
-<Pseudo Code Goes Here>
-    on click > call function generatePassword();
-    define acceptable characters in array;
-    prompt screen for user selection;
-    save user selection in variable;
-    random number generator to select randomly from the caracter array;
-    contact the characters in a string;
-    present the string in nameText.value;
+    click
+    define variable pWord
+    prompt : choose length from list of [8 to 128]
+        validate: no less than 8, no more than 128
+        validate: Number(myNumber)
+        set variable pwLength
+    prompt : choose types from list of [lowerCase, upperCase, nums, spChars]
+        validate: choose at lease 1
+        validate: can choose more than 1
+        set variable psIndexRange
+    const   pwIndexArray ["a"-"z", "A"-"Z", "0"-"9", specialChar]
+                    index [0-23 | 24-47 | 48-58 | 59 to end]
+    defind function pGen(){
+        
+    }
 
-    ++ add select item 
+    
 ```
 
 ### Deployed Links
