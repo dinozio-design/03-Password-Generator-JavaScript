@@ -66,7 +66,15 @@ The following image shows the web application's appearance and functionality:
 ### My PseudoCode
 ```
 <Pseudo Code Goes Here>
+    on click > call function generatePassword();
+    define acceptable characters in array;
+    prompt screen for user selection;
+    save user selection in variable;
+    random number generator to select randomly from the caracter array;
+    contact the characters in a string;
+    present the string in nameText.value;
 
+    ++ add select item 
 ```
 
 ### Deployed Links
