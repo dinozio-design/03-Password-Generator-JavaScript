@@ -67,7 +67,7 @@ The following image shows the web application's appearance and functionality:
 ```
     click
     const   pwIndexArray ["a"-"z", "A"-"Z", "0"-"9", specialChar]
-                    index [0-23 | 24-47 | 48-58 | 59 to end]
+                    index [0-25 | 26-51 | 52-61 | 62 to 70]
     var pWord
 
     prompt : choose length from list of [8 to 128]
