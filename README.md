@@ -66,7 +66,10 @@ The following image shows the web application's appearance and functionality:
 ### My PseudoCode
 ```
     click
-    define variable pWord
+    const   pwIndexArray ["a"-"z", "A"-"Z", "0"-"9", specialChar]
+                    index [0-23 | 24-47 | 48-58 | 59 to end]
+    var pWord
+
     prompt : choose length from list of [8 to 128]
         validate: no less than 8, no more than 128
         validate: Number(myNumber)
@@ -74,14 +77,19 @@ The following image shows the web application's appearance and functionality:
     prompt : choose types from list of [lowerCase, upperCase, nums, spChars]
         validate: choose at lease 1
         validate: can choose more than 1
-        set variable psIndexRange
-    const   pwIndexArray ["a"-"z", "A"-"Z", "0"-"9", specialChar]
-                    index [0-23 | 24-47 | 48-58 | 59 to end]
+        set variable pwIndexRange
     defind function pGen(){
-        
+        var RAND call Math(pwIndexRange)
+        pWord += pwIndexArray[RAND]
     }
 
-    
+    do {
+        call pGen()
+
+    } while (pWord.length < pwLength)
+
+    output onto html : You secure password is: pWord
+
 ```
 
 ### Deployed Links
