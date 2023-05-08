@@ -1,8 +1,6 @@
 // Assignment Code
-
 var generateBtn = document.querySelector("#generate");
 function writePassword() {
-  
   var pWord = "";
   var alpha = "abcdefghijklmnopqrstuvwxyz";
   var ALPHA = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -11,7 +9,6 @@ function writePassword() {
   var alphaNumChar = "";
   var passwordText = document.querySelector("#password");
   // passwordText.value = pWord;
-
   const userChoice = {
     pwLength: "",
     lowerCase: null,
@@ -22,7 +19,6 @@ function writePassword() {
   var getLength = function(){
     userChoice.pwLength = window.prompt("Enter Desired Password Length between 8 and 128 character");
     userChoice.pwLength = Number(userChoice.pwLength);
-    
   }
   getLength(); 
   // validate input
@@ -55,10 +51,8 @@ function writePassword() {
   if (userChoice.spChar){
     alphaNumChar += characters;
   }
-
   console.log(alphaNumChar);
   // articulate the password
-  
   do {
     var RAND = Math.floor(Math.random()*alphaNumChar.length);
     pWord += alphaNumChar[RAND];
