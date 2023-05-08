@@ -17,7 +17,7 @@ To achieve this task, I used some elementary JavaScript code such as:
 
 > To begin with, I started with a draft pseudo code
 
-![Draft Pseudo Code](./Assets/Images/03-pseudo-code.png) 
+![Draft Pseudo Code](./assets/images/03-pseudo-code.png) 
 
 
 ## User Story
