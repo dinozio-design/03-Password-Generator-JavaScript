@@ -15,8 +15,9 @@ To achieve this task, I used some elementary JavaScript code such as:
 -	Use object methods to target specific variables.
 
 
-> To begin with, I started with a draft pseudo code<br><br>
-![Draft Pseudo Code](./Assets/Images/Pseudo.PNG) 
+> To begin with, I started with a draft pseudo code
+
+![Draft Pseudo Code](./Assets/Images/03-pseudo-code.png) 
 
 
 ## User Story
